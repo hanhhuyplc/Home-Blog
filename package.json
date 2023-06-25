@@ -7,7 +7,8 @@
         "start": "node src/index.js",
         "sass": "node-sass --watch src/resource/scss -o src/public/css",
         "nodemon": "nodemon src/index.js",
-        "debug": "start npm run sass && start npm run nodemon"
+        "debug": "start npm run sass && start npm run nodemon",
+        "build": "webpack --config webpack.config.js --mode production"
     },
     "author": "Nguyen Huy Hanh",
     "license": "ISC",
